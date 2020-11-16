@@ -33,7 +33,7 @@ public class LoginFragment extends Fragment {
         View view = binding.getRoot();
 
 
-        LoginFragmentViewModelFactory viewModelLoginFactory = new LoginFragmentViewModelFactory(new Account("altalarik@mail.com", "polinema"));
+        LoginFragmentViewModelFactory viewModelLoginFactory = new LoginFragmentViewModelFactory(new Account("ardyansyah@mail.com", "polinema"));
         loginFragmentViewModel = new ViewModelProvider(this, viewModelLoginFactory).get(LoginFragmentViewModel.class);
         binding.setViewModel(loginFragmentViewModel);
         binding.setLifecycleOwner(this);
